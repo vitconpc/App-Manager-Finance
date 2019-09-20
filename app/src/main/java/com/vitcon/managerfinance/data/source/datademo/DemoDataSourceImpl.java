@@ -1,6 +1,6 @@
 package com.vitcon.managerfinance.data.source.datademo;
 
-import com.vitcon.managerfinance.data.model.DemoResponse;
+import com.vitcon.managerfinance.data.model.response.DemoResponse;
 
 public class DemoDataSourceImpl implements DemoSource.DataSource{
 

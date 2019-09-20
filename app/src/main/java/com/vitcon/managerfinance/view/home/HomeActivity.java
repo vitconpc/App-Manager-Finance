@@ -49,4 +49,10 @@ public class HomeActivity extends BaseActivity<HomeContact.Presenter> implements
     public void onClick(View v) {
         getPresenter().onClickToGetDataDemo();
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        getPresenter().onStop();
+    }
 }

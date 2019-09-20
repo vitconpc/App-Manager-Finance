@@ -1,4 +1,4 @@
-package com.vitcon.managerfinance.data.model;
+package com.vitcon.managerfinance.data.model.response;
 
 public class DemoResponse {
     private String mData;
